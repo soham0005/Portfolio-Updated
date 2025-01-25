@@ -1,10 +1,12 @@
 /* eslint-disable no-unused-vars */
 import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom';
 import { RightIcon, DownIcon, GithubIcon, FileIcon, ProfileIcon } from './SVG/Icon'
 import './App.css'
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
 import Explore from './Components/Explore/Explore'
+import Contact from './Pages/Contact';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -25,9 +27,8 @@ function App() {
       <div className="layout">
         {/* Sidebar */}
         <div
-          className={`sidebar ${
-            isSidebarOpen ? "open" : "closed"
-          } flex flex-col justify-between bg-gray-800`}
+          className={`sidebar ${isSidebarOpen ? "open" : "closed"
+            } flex flex-col justify-between bg-gray-800`}
         >
           <p className="toggle-button p-2 text-center" onClick={toggleExplorer}>
             <FileIcon />
@@ -41,18 +42,20 @@ function App() {
         {/* Explorer Section (Overlay on Mobile) */}
         {isExplorerOpen && (
           <div className="explorer open">
-            <Explore/>
+            <Explore />
           </div>
         )}
 
         {/* Main Content */}
         <div className={`main-content ${isSidebarOpen ? "sidebar-open" : ""}`}>
-          <h1>Main Content</h1>
-          <p>This is where your main content will go.</p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-          reiciendis itaque cumque voluptatibus accusantium neque nemo
-          explicabo, pariatur rem, numquam quaerat? Ea recusandae maiores
-          cumque facilis quod beatae nulla iure?
+
+          <Routes>
+            <Route path="/" element={<h1>Welcome to the Main Content</h1>} />
+            <Route path="/experience" element={<h1>Welcome to the Experience Content</h1>} />
+            <Route path="/about" element={<h1>Welcome to the About Content</h1>} />
+            <Route path="/contact" element={<Contact/>} />
+
+          </Routes>
         </div>
       </div>
 

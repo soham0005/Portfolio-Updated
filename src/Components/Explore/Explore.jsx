@@ -1,5 +1,6 @@
 import './Explore.css';
 // import { useState } from 'react'
+
 import { AboutSectionData } from '../../JSON/data';
 const Explore = () => {
     return (
@@ -66,19 +67,8 @@ const Explore = () => {
                         </div>
                     </details>
 
-                    
-
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
         </div>
     )
 }

@@ -55,6 +55,7 @@
   background-color: #252526;
   height: 100%;
   width: 20%;
+  max-width: 20%;
   /* padding: 10px; */
   overflow-y: auto;
   transition: all 0.3s ease-in-out;

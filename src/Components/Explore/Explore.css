@@ -14,3 +14,13 @@ h5{
     color: rgb(228, 225, 225);
     letter-spacing: 1px;
 }
+.list{
+    display: block;
+}
+
+@media (max-width: 768px){
+   .explore-section, h5 {
+        /* display: none; */
+        font-size: 3vw;
+    }
+}

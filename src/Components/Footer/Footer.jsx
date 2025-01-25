@@ -18,7 +18,7 @@ const Footer = () => {
             <nav className="w-full">
                 <div className="flex justify-between">
                     <ul className="headerList">
-                        <li>Made Using</li>
+                        <li className="hidden">Made Using</li>
                         <li><a href="#">React</a></li>
                         <li><a href="#">Tailwind</a></li>
                         <li><a href="#">Javascript</a></li>
@@ -26,8 +26,8 @@ const Footer = () => {
 
                     <ul className="headerList rightPart">
                         <li>{currentDateTime}</li>
-                        <li>UTF-8</li>
-                        <li>Port: 443</li>
+                        <li className="hidden">UTF-8</li>
+                        <li className="hidden">Port: 443</li>
                     </ul>
 
                 </div>

@@ -4,16 +4,15 @@
   font-family: 'Roboto', sans-serif;
  }
 
-/* General Layout */
 .layout {
   display: flex;
-  flex-direction: row; /* Default: row for larger screens */
+  flex-direction: row;
   height: calc(100vh - 50px);
   width: 100%;
   transition: all 0.3s ease-in-out;
 }
 
-/* Sidebar */
+
 .sidebar {
   background-color: #333;
   height: 100%;
@@ -28,7 +27,7 @@
 }
 
 .sidebar.open {
-  width: 200px; /* Widened for better UX on larger screens */
+  width: 200px; 
 }
 
 .toggle-button {
@@ -50,20 +49,19 @@
   transform: scale(1.1);
 }
 
-/* Explorer Section */
+
 .explorer {
   background-color: #252526;
   height: 100%;
-  width: 20%;
-  max-width: 20%;
-  /* padding: 10px; */
+  width: 30%;
+  max-width: 30%;
   overflow-y: auto;
   transition: all 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
 }
 
-/* Main Content */
+
 .main-content {
   flex-grow: 1;
   background-color: #222;
@@ -73,15 +71,16 @@
   transition: margin-left 0.3s ease;
 }
 
+
 .sidebar.open + .explorer + .main-content {
   margin-left: 10px;
 }
 
 .sidebar.closed + .main-content {
-  margin-left: 60px;
+  margin-left: 0; 
 }
 
-/* Mobile View */
+
 @media (max-width: 768px) {
   .layout {
     flex-direction: column;

@@ -25,7 +25,7 @@ const Explore = () => {
                             </span>
                         </summary>
 
-                        <div className="pl-8 mt-2 hidden group-open:block">
+                        <div className="pl-8 mt-2 hidden group-open:block list">
                             {AboutSectionData.map((item, index) => (
                                 <div key={index} className="flex items-center hover:bg-gray-700 cursor-pointer">
                                     <span
@@ -53,7 +53,7 @@ const Explore = () => {
                             </span>
                         </summary>
                         
-                        <div className="pl-8 mt-2 hidden group-open:block">
+                        <div className="pl-8 mt-2 hidden group-open:block list">
                             {AboutSectionData.map((item, index) => (
                                 <div key={index} className="flex items-center hover:bg-gray-700 cursor-pointer">
                                     <span

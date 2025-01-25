@@ -1,0 +1,16 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+h5{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.explore-section{
+    font-size: 10px;
+    font-weight: 100;
+    color: rgb(228, 225, 225);
+    letter-spacing: 1px;
+}

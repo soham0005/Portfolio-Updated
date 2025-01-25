@@ -4,49 +4,8 @@ import { RightIcon, DownIcon, GithubIcon, FileIcon, ProfileIcon } from './SVG/Ic
 import './App.css'
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
+import Explore from './Components/Explore/Explore'
 
-// function App() {
-//   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
-//   const toggleSidebar = () => {
-//     setIsSidebarOpen(!isSidebarOpen);
-//   };
-
-//   return (
-//     <>
-//       <Header />
-
-//       <div className="layout w-full flex">
-
-
-//         <div className={`sidebar ${isSidebarOpen ? 'open' : 'closed'} flex flex-col justify-between bg-gray-800 h-full`}>
-//           <p className="toggle-button p-2 text-center" onClick={toggleSidebar}>
-//             {isSidebarOpen ? <FileIcon /> : <FileIcon />}
-//           </p>
-
-//           <p className="toggle-button p-2 text-center">
-//             {isSidebarOpen ? <ProfileIcon /> : <ProfileIcon />}
-//           </p>
-//         </div>
-
-
-//         {/* Explorer Section */}
-//         {isSidebarOpen && <div className="explorer">Explorer Section Content</div>}
-
-//         {/* Main Content */}
-//         <div className={`main-content ${isSidebarOpen ? 'sidebar-open' : ''}`}>
-//           <h1>Main Content</h1>
-//           <p>This is where your main content will go.</p>
-//           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, reiciendis itaque cumque voluptatibus accusantium neque nemo explicabo, pariatur rem, numquam quaerat? Ea recusandae maiores cumque facilis quod beatae nulla iure?
-//         </div>
-//       </div>
-
-//       <Footer />
-//     </>
-//   );
-// }
-
-// export default App;
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isExplorerOpen, setIsExplorerOpen] = useState(false);
@@ -82,7 +41,7 @@ function App() {
         {/* Explorer Section (Overlay on Mobile) */}
         {isExplorerOpen && (
           <div className="explorer open">
-            <h2 className="text-white">Explorer Section Content</h2>
+            <Explore/>
           </div>
         )}
 

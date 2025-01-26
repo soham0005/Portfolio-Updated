@@ -7,6 +7,7 @@ import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
 import Explore from './Components/Explore/Explore'
 import Contact from './Pages/Contact';
+import Home from './Components/Home/Home';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -50,9 +51,12 @@ function App() {
         <div className={`main-content ${isSidebarOpen ? "sidebar-open" : ""}`}>
 
           <Routes>
-            <Route path="/" element={<h1>Welcome to the Main Content</h1>} />
+            <Route path="/" element={<Home/>} />
             <Route path="/experience" element={<h1>Welcome to the Experience Content</h1>} />
-            <Route path="/about" element={<h1>Welcome to the About Content</h1>} />
+            <Route path="/about" element={<Home/>} />
+            <Route path="/skills" element={<h1>Welcome to the About Content</h1>} />
+            <Route path="/projects" element={<h1>Welcome to the About Content</h1>} />
+            <Route path="/hobbies" element={<h1>Welcome to the About Content</h1>} />
             <Route path="/contact" element={<Contact/>} />
 
           </Routes>

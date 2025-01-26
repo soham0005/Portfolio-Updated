@@ -2,6 +2,7 @@ import './Explore.css';
 // import { useState } from 'react'
 
 import { AboutSectionData } from '../../JSON/data';
+// import { Link, Route } from 'react-router';
 const Explore = () => {
     return (
         <div>
@@ -33,7 +34,7 @@ const Explore = () => {
                                         dangerouslySetInnerHTML={{ __html: item.svgPath }}
                                     ></span>
                                     &nbsp;
-                                    <span className="explore-section">{item.name}</span>
+                                   <span className="explore-section">{item.name}</span>
                                 </div>
                             ))}
                         </div>

@@ -1,4 +1,4 @@
-header {
+/* header {
     background-color: #3c3c3c;
     color: #d8d4d4;
     display: flex;
@@ -42,7 +42,7 @@ header {
 
 
 .hamburger {
-  display: none; /* Hidden by default */
+  display: none; 
   cursor: pointer;
   flex-direction: column;
   gap: 4px;
@@ -56,11 +56,11 @@ header {
   border-radius: 2px;
 }
 
-/* When the menu is open, show the menu items */
+
 .headerList.open {
   display: block;
   position: absolute;
-  top: 50px; /* Just below the header */
+  top: 50px;
   left: 0;
   background-color: #3c3c3c;
   width: 100%;
@@ -76,10 +76,10 @@ header {
   color: #d8d4d4;
 }
 
-/* Show the hamburger menu only on smaller screens */
+
 @media (max-width: 768px) {
   header nav ul {
-      display: none; /* Hide the menu on mobile */
+      display: none; 
   }
 
   .hamburger {
@@ -94,4 +94,45 @@ header {
   .headerList.open {
       display: block;
   }
+} */
+
+header {
+  background-color: #3c3c3c;
+  color: #d8d4d4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  height: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+  z-index: 10;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-left: 10px;
+}
+
+header nav ul li a {
+  color: #c6c2c2;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #ccc;
+}
+
+.headerList {
+  font-weight: 200;
+  font-size: 12px;
 }

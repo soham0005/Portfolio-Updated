@@ -1,0 +1,30 @@
+.hide{
+    color: transparent;
+    visibility: hidden;
+}
+
+@media (max-width: 425px){
+    .hide{
+        display: none;
+    }
+}
+  
+  @keyframes animateColor {
+    0% {
+      background: rgba(33, 150, 243, 0.1);
+    }
+    50% {
+      background: rgba(2, 68, 143, 0.1);
+    }
+    100% {
+      background: rgba(109, 16, 216, 0.1);
+    }
+  }
+  
+  .animate-background {
+    animation: animateColor 5s infinite alternate;
+  }
+  
+
+
+  

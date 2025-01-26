@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer'
 import Explore from './Components/Explore/Explore'
 import Contact from './Pages/Contact';
 import Home from './Components/Home/Home';
+import Experience from './Components/Experience/Experience';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -52,7 +53,7 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="/experience" element={<h1>Welcome to the Experience Content</h1>} />
+            <Route path="/experience" element={<Experience/>} />
             <Route path="/about" element={<Home/>} />
             <Route path="/skills" element={<h1>Welcome to the About Content</h1>} />
             <Route path="/projects" element={<h1>Welcome to the About Content</h1>} />

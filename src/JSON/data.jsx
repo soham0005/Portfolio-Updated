@@ -256,3 +256,17 @@ export const gamesSection = [
       "https://64.media.tumblr.com/e5c073740257c795f8f1519178ddca3c/4df32908d32a5a41-f0/s540x810/91e1ba687932228b6138d29ef917e1cb259be7a7.gifv",
   },
 ]
+
+export const animeSection = [
+  { name: "Naruto", image: "https://steamuserimages-a.akamaihd.net/ugc/910156967348138382/E4A8A3FAA9388A67BD3DC2CCD77216B21280A7A1/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" },
+  { name: "My Hero Academia", image: "https://c.tenor.com/bnRtrO9OLyIAAAAd/my-hero-academia-world-heroes-mission.gif" },
+  { name: "Attack on Titan", image: "https://c.tenor.com/JcOj-GXlyGEAAAAC/attack-on-titan-shingeki-no-kyojin.gif" },
+  { name: "Hunter X Hunter", image: "https://giffiles.alphacoders.com/143/143442.gif" },
+  { name: "Tokyo Revengers", image: "https://c.tenor.com/YcRLyel0MgcAAAAC/mikey-tokyo-revengers-tokyo-revengers.gif" },
+  { name: "Parasite", image: "https://i.pinimg.com/originals/f2/a5/d2/f2a5d2826d04a9030a2f71195c76dc5a.gif" },
+  { name: "Jujutsu Kaisen", image: "https://gifdb.com/images/high/jujutsu-kaisen-gojo-hollow-purple-of1gnux4ytfmt7il.gif" },
+  { name: "Death Note", image: "https://giffiles.alphacoders.com/254/2549.gif" },
+  { name: "One Punch Man", image: "https://j.gifs.com/y5Pr8z.gif" },
+  { name: "Boruto", image: "https://i.pinimg.com/originals/6b/80/f7/6b80f7be69539ae894673205f1dc503b.gif" },
+  { name: "Beyblade", image: "https://i.makeagif.com/media/10-24-2015/wKS2sZ.gif" },
+];

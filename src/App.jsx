@@ -12,6 +12,7 @@ import Experience from './Components/Experience/Experience';
 import Skills from './Components/Skills/Skills';
 import Hobbies from './Pages/Hobbies/Hobbies';
 import Gaming from './Pages/Gaming/Gaming';
+import Anime from './Pages/Anime/Anime';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -63,7 +64,7 @@ function App() {
             <Route path="/hobbies" element={<Hobbies />} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="/gaming" element={<Gaming/>} />
-            <Route path="/anime" element={<Contact/>} />
+            <Route path="/anime" element={<Anime/>} />
             <Route path="/books" element={<Contact/>} />
 
           </Routes>

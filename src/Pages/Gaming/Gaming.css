@@ -1,11 +1,5 @@
-/* .background {
-    min-height: 120vh; 
-    background: url('https://64.media.tumblr.com/fa0e3dc16f9430ec91beda6d9214f515/5676916248bbf8a5-88/s540x810/61e17af8b66b5f47425f1f7eddfc5120362ab4e3.gifv') 
-                no-repeat center center fixed;
-    background-size: cover;
-} */
 
-.background {
+.background-1 {
     min-height: 100vh;
     background: url('https://64.media.tumblr.com/fa0e3dc16f9430ec91beda6d9214f515/5676916248bbf8a5-88/s540x810/61e17af8b66b5f47425f1f7eddfc5120362ab4e3.gifv') 
                 no-repeat center center fixed;

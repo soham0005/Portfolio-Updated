@@ -20,7 +20,7 @@ const Gaming = () => {
   };
 
   return (
-    <div className="background">
+    <div className="background-1">
       <div className="main-container">
       <span className="hide">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident incidunt blanditiis nesciunt! Eius vero dicta error veniam maxime asperiores possimus eveniet qui consequuntur. Ea inventore asperiores odit esse iste pariatur.

@@ -53,8 +53,8 @@
 .explorer {
   background-color: #252526;
   height: 100%;
-  width: 30%;
-  max-width: 30%;
+  width: 25%;
+  max-width: 25%;
   overflow-y: auto;
   transition: all 0.3s ease-in-out;
   display: flex;

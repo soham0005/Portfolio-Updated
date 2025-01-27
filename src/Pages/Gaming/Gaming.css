@@ -1,0 +1,76 @@
+/* .background {
+    min-height: 120vh; 
+    background: url('https://64.media.tumblr.com/fa0e3dc16f9430ec91beda6d9214f515/5676916248bbf8a5-88/s540x810/61e17af8b66b5f47425f1f7eddfc5120362ab4e3.gifv') 
+                no-repeat center center fixed;
+    background-size: cover;
+} */
+
+.background {
+    min-height: 100vh;
+    background: url('https://64.media.tumblr.com/fa0e3dc16f9430ec91beda6d9214f515/5676916248bbf8a5-88/s540x810/61e17af8b66b5f47425f1f7eddfc5120362ab4e3.gifv') 
+                no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .card {
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for glass effect */
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); /* Subtle glassmorphism shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px) scale(1.05); /* Hover animation */
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5); /* Enhanced shadow on hover */
+  }
+  
+  .card img {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card:hover img {
+    opacity: 0.9;
+  }
+  
+  .card-content {
+    padding: 1rem;
+    color: #fff;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .card-description {
+    font-size: 0.9rem;
+    color: #e0e0e0;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+  }
+  
+  .animeplayer img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .animeplayer img:hover {
+    transform: scale(1.2);
+  }
+  

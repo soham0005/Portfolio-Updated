@@ -21,6 +21,6 @@ h5{
 @media (max-width: 768px){
    .explore-section, h5 {
         /* display: none; */
-        font-size: 3vw;
+        font-size: 2vw;
     }
 }

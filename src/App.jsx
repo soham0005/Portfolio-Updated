@@ -61,6 +61,9 @@ function App() {
             <Route path="/projects" element={<h1>Welcome to the About Content</h1>} />
             <Route path="/hobbies" element={<Hobbies />} />
             <Route path="/contact" element={<Contact/>} />
+            <Route path="/gaming" element={<Contact/>} />
+            <Route path="/anime" element={<Contact/>} />
+            <Route path="/books" element={<Contact/>} />
 
           </Routes>
         </div>

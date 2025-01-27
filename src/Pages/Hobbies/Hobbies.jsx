@@ -17,8 +17,8 @@ const Hobbies = () => {
             </div>
             <div className="grid grid-cols-3 pt-5 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 gap-4">
               {/* Blogging */}
-              <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-50 hover:bg-opacity-30">
-                <a href="/Blogs">
+              <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-400 hover:bg-opacity-30">
+                <a href="/books">
                   <div>
                     <div className="bg-white rounded-md mb-2 flex justify-center items-center">
                       <img
@@ -35,8 +35,8 @@ const Hobbies = () => {
               </div>
 
               {/* Gaming */}
-              <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-50 hover:bg-opacity-30">
-                <a href="/Gaming">
+              <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-400 hover:bg-opacity-30">
+                <a href="/gaming">
                   <div>
                     <div className="bg-white rounded-md mb-2 flex justify-center items-center">
                       <img
@@ -55,8 +55,8 @@ const Hobbies = () => {
               </div>
 
               {/* Anime */}
-              <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-50 hover:bg-opacity-30">
-                <a href="/Anime">
+              <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-400 hover:bg-opacity-30">
+                <a href="/anime">
                   <div>
                     <div className="bg-white rounded-md mb-2 flex justify-center items-center">
                       <img
@@ -73,8 +73,10 @@ const Hobbies = () => {
               </div>
 
               {/* Learning */}
-              <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-50 hover:bg-opacity-30">
-                <a href="/Learning">
+              <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-400 hover:bg-opacity-30
+
+">
+                <a href="/learning">
                   <div>
                     <div className="bg-white rounded-md mb-2 flex justify-center items-center">
                       <img
@@ -85,24 +87,6 @@ const Hobbies = () => {
                     </div>
                     <h2 className="text-white text-center font-semibold">
                       Learning
-                    </h2>
-                  </div>
-                </a>
-              </div>
-
-              {/* Startup */}
-              <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-50 hover:bg-opacity-30">
-                <a href="/Startup">
-                  <div>
-                    <div className="bg-white rounded-md mb-2 flex justify-center items-center">
-                      <img
-                        src="https://img.icons8.com/ios/50/000000/rocket--v1.png"
-                        className="h-20 p-4 rounded-md"
-                        alt="Startup icon"
-                      />
-                    </div>
-                    <h2 className="text-white text-center font-semibold">
-                      StartUp
                     </h2>
                   </div>
                 </a>

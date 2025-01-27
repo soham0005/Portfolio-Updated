@@ -9,6 +9,8 @@ import Explore from './Components/Explore/Explore'
 import Contact from './Pages/Contact';
 import Home from './Components/Home/Home';
 import Experience from './Components/Experience/Experience';
+import Skills from './Components/Skills/Skills';
+import Hobbies from './Pages/Hobbies/Hobbies';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -55,9 +57,9 @@ function App() {
             <Route path="/" element={<Home/>} />
             <Route path="/experience" element={<Experience/>} />
             <Route path="/about" element={<Home/>} />
-            <Route path="/skills" element={<h1>Welcome to the About Content</h1>} />
+            <Route path="/skills" element={<Skills/>} />
             <Route path="/projects" element={<h1>Welcome to the About Content</h1>} />
-            <Route path="/hobbies" element={<h1>Welcome to the About Content</h1>} />
+            <Route path="/hobbies" element={<Hobbies />} />
             <Route path="/contact" element={<Contact/>} />
 
           </Routes>

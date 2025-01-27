@@ -1,0 +1,10 @@
+.hide{
+    color: transparent;
+    /* visibility: hidden; */
+    max-height: 2px;
+}
+@media (max-width: 425px){
+    .hide{
+        display: none;
+    }
+}

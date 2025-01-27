@@ -35,3 +35,54 @@ export const AboutSectionData = [
 </svg>`
     },
 ];
+
+
+export const ProgrammingLanguages = [
+    { src: 'https://img.icons8.com/?size=100&id=5OD485koNIrb&format=png&color=000000', label: 'Java' },
+    { src: 'https://img.icons8.com/color/144/000000/javascript--v1.png', label: 'JavaScript' },
+    { src: 'https://img.icons8.com/color/96/000000/typescript.png', label: 'TypeScript' },
+    { src: 'https://img.icons8.com/color/48/null/python--v1.png', label: 'Python' },
+   
+
+];
+
+export const FrontendTechnologies = [
+    { src: 'https://img.icons8.com/color/144/000000/react-native.png', label: 'React' },
+    { src: 'https://img.icons8.com/?size=100&id=71257&format=png&color=000000', label: 'Angular' },
+    { src: 'https://bourhaouta.gallerycdn.vsassets.io/extensions/bourhaouta/tailwindshades/0.0.5/1592520164095/Microsoft.VisualStudio.Services.Icons.Default', label: 'Tailwind' },
+    { src: 'https://img.icons8.com/color/144/000000/bootstrap.png', label: 'Bootstrap' },
+    { src: 'https://img.icons8.com/color/144/000000/sass.png', label: 'SASS' },
+];
+
+export const BackendTechnologies = [
+    { src: 'https://img.icons8.com/?size=100&id=90519&format=png&color=000000', label: 'Spring Boot' },
+    { src: 'https://img.icons8.com/fluency/144/000000/node-js.png', label: 'Node.js' },
+    { src: 'https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000', label: 'Express.js' },
+
+];
+
+export const Databases = [
+    { src: 'https://img.icons8.com/ios-filled/100/000000/sql.png', label: 'SQL' },
+    { src: 'https://img.icons8.com/color/48/null/redis.png', label: 'Redis' },
+    // { src: 'https://img.icons8.com/color/48/null/postgreesql.png', label: 'PostgresSQL' },
+    // { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/1200px-Cassandra_logo.svg.png', label: 'Cassandra' },
+    { src: 'https://img.icons8.com/color/48/000000/mongodb.png', label: 'MongoDB' },
+];
+
+export const DevOps = [
+    { src: 'https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000', label: 'Docker' },
+    { src: 'https://img.icons8.com/?size=100&id=cvzmaEA4kC0o&format=png&color=000000', label: 'Kubernetes' },
+    { src: 'https://img.icons8.com/?size=100&id=iGCCE2iEmh2u&format=png&color=000000', label: 'Ansible' },
+    { src: 'https://img.icons8.com/?size=100&id=39292&format=png&color=000000', label: 'Jenkins' },
+    { src: 'https://img.icons8.com/color/144/000000/amazon-web-services.png', label: 'AWS' },
+    { src: 'https://img.icons8.com/color/144/000000/git.png', label: 'Git' },
+    { src: 'https://img.icons8.com/fluency/144/000000/github.png', label: 'GitHub' },
+    { src: 'https://img.icons8.com/color/144/000000/bitbucket.png', label: 'Bitbucket' },
+
+]
+
+export const Tools = [
+    
+    { src: 'https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000', label: 'Canva' },
+    { src: 'https://img.icons8.com/color/144/000000/jira.png', label: 'JIRA' },
+]

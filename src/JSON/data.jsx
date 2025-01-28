@@ -270,3 +270,36 @@ export const animeSection = [
   { name: "Boruto", image: "https://i.pinimg.com/originals/6b/80/f7/6b80f7be69539ae894673205f1dc503b.gif" },
   { name: "Beyblade", image: "https://i.makeagif.com/media/10-24-2015/wKS2sZ.gif" },
 ];
+
+
+
+export const projectDetails = [
+  {
+        "id": 1,
+        "name": "Secure Vault",
+        "link":"https://github.com/soham0005/SecureVault",
+        "description": "Password Manager: Securely store, manage, and retrieve passwords with encryption, while effortlessly generating and saving credentials",
+        "techStack": ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+        "keyFeatures": [
+          "Secure login and signup with encrypted user credentials",
+          "Easily view and manage saved passwords in a user-friendly interface",
+          "AES-256 encryption for password storage",
+          "Option to edit or delete saved passwords for better management",
+          "Search and organize saved credentials"
+        ],
+        "banner":"/images/Project_1-banner.webp",
+        "snapshots": [
+          "/images/Project_1-1.png",
+          "/images/Project_1-2.png",
+          "/images/Project_1-3.png",
+          "/images/Project_1-4.png",
+          "/images/Project_1-5.png",
+          "/images/Project_1-6.png",
+
+        ],
+        "details": "Secure Vault is a comprehensive password management tool designed to enhance digital security. Built with a robust tech stack, it offers seamless functionality to generate, save, and retrieve passwords securely."
+    
+  },
+
+  
+]

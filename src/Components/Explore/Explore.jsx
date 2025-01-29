@@ -1,8 +1,10 @@
+/* eslint-disable no-unused-vars */
 import './Explore.css';
 import { AboutSectionData, ContactSectionData, MiscellaneousSectionData, ProjectSectionData } from '../../JSON/data';
 import { Link } from 'react-router';
 // import { Link, Route } from 'react-router';
 
+// eslint-disable-next-line react/prop-types
 const Explore = ({ isExplorerOpen, toggleExplorer }) => {
     return (
         <div>

@@ -3,9 +3,9 @@ import './Hobbies.css';
 const Hobbies = () => {
   return (
     <div className="">
-        <span>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident incidunt blanditiis nesciunt! Eius vero dicta error veniam maxime asperiores possimus eveniet qui consequuntur. Ea inventore asperiores odit esse iste pariatur.
-        </span>
+      <span>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident incidunt blanditiis nesciunt! Eius vero dicta error veniam maxime asperiores possimus eveniet qui consequuntur. Ea inventore asperiores odit esse iste pariatur.
+      </span>
       <main className="backdrop-filter backdrop-blur-md bg-opacity-20 rounded-xl overflow-hidden w-full max-w-5xl shadow-lg m-4 lg:m-6">
         <div className="p-12">
           <div>
@@ -67,26 +67,6 @@ const Hobbies = () => {
                     </div>
                     <h2 className="text-white text-center font-semibold">
                       Animes
-                    </h2>
-                  </div>
-                </a>
-              </div>
-
-              {/* Learning */}
-              <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-400 hover:bg-opacity-30
-
-">
-                <a href="/learning">
-                  <div>
-                    <div className="bg-white rounded-md mb-2 flex justify-center items-center">
-                      <img
-                        src="https://img.icons8.com/ios/50/000000/learning.png"
-                        alt="Learning icon"
-                        className="h-20 rounded-md p-2"
-                      />
-                    </div>
-                    <h2 className="text-white text-center font-semibold">
-                      Learning
                     </h2>
                   </div>
                 </a>

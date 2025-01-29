@@ -1,5 +1,5 @@
 import './Hobbies.css';
-
+import { Link } from 'react-router';
 const Hobbies = () => {
   return (
     <div className="">
@@ -18,7 +18,7 @@ const Hobbies = () => {
             <div className="grid grid-cols-3 pt-5 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-5 gap-4">
               {/* Blogging */}
               <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-400 hover:bg-opacity-30">
-                <a href="/books">
+                <Link to="/books">
                   <div>
                     <div className="bg-white rounded-md mb-2 flex justify-center items-center">
                       <img
@@ -31,12 +31,12 @@ const Hobbies = () => {
                       Reading
                     </h2>
                   </div>
-                </a>
+                </Link>
               </div>
 
               {/* Gaming */}
               <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-400 hover:bg-opacity-30">
-                <a href="/gaming">
+                <Link to="/gaming">
                   <div>
                     <div className="bg-white rounded-md mb-2 flex justify-center items-center">
                       <img
@@ -51,12 +51,12 @@ const Hobbies = () => {
                       Gaming
                     </h2>
                   </div>
-                </a>
+                </Link>
               </div>
 
               {/* Anime */}
               <div className="cursor-pointer block p-1 rounded-md transition-colors hover:bg-gray-400 hover:bg-opacity-30">
-                <a href="/anime">
+                <Link to="/anime">
                   <div>
                     <div className="bg-white rounded-md mb-2 flex justify-center items-center">
                       <img
@@ -69,7 +69,7 @@ const Hobbies = () => {
                       Animes
                     </h2>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

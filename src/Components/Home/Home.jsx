@@ -1,4 +1,5 @@
 import "./Home.css";
+import { Link } from "react-router";
 
 const Home = () => {
     return (
@@ -10,7 +11,7 @@ const Home = () => {
                 </h3>
                 <p className="text-xl text-gray-300 pt-5 mb-4">Start</p>
 
-                <a href="">
+                <Link to="/skills">
                     <p className="text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -28,9 +29,9 @@ const Home = () => {
                         </svg>
                         Skills ...
                     </p>
-                </a>
+                </Link>
 
-                <a href="/Projects">
+                <Link to="/projects">
                     <p className="text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -48,9 +49,9 @@ const Home = () => {
                         </svg>
                         Projects ...
                     </p>
-                </a>
+                </Link>
 
-                <a href="/Anime">
+                <Link to="/anime">
                     <p className="text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +69,7 @@ const Home = () => {
                         </svg>
                         Anime ...
                     </p>
-                </a>
+                </Link>
 
                 <a href="/contact">
                     <p className="text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center">
@@ -93,46 +94,46 @@ const Home = () => {
                 <p className="text-xl text-gray-300 pt-6 mb-2 ">Recent</p>
 
                 <div className="pt-1">
-                    <a href="/anime">
+                    <Link to="/anime">
                         <p className="text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center">
                             Anime{" "}
                             <p className="text-gray-300 pl-2 text-sm ">
                                 E:/Soham/Anime
                             </p>
                         </p>
-                    </a>
-                    <a href="/gaming">
+                    </Link>
+                    <Link to="/gaming">
                         <p className="text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center">
                             Gaming{" "}
                             <p className="text-gray-300 pl-2 text-sm ">
                                 E:/Soham/Games
                             </p>
                         </p>
-                    </a>
-                    <a href="/contact">
+                    </Link>
+                    <Link to="/contact">
                         <p className="text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center">
                             Email{" "}
                             <p className="text-gray-300 pl-2 text-sm ">
                                 C:/Soham/Email
                             </p>
                         </p>
-                    </a>
-                    <a href="/Projects">
+                    </Link>
+                    <Link to="/projects">
                         <p className="text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center">
                             Projects{" "}
                             <p className="text-gray-300 pl-2 text-sm ">
                                 E:/Soham/Projects
                             </p>
                         </p>
-                    </a>
-                    <a href="/Skills">
+                    </Link>
+                    <Link to="/skills">
                         <p className="text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center">
                             Skills{" "}
                             <p className="text-gray-300 pl-2 text-sm ">
                                 E:/Soham/Skills
                             </p>
                         </p>
-                    </a>
+                    </Link>
                 </div>
             </div>
 

@@ -1,20 +1,16 @@
 import './Explore.css';
-// import { useState } from 'react'
-
 import { AboutSectionData, ContactSectionData, MiscellaneousSectionData, ProjectSectionData } from '../../JSON/data';
 import { Link } from 'react-router';
 // import { Link, Route } from 'react-router';
-const Explore = () => {
+
+const Explore = ({ isExplorerOpen, toggleExplorer }) => {
     return (
         <div>
-            <h5 className='overflow-hidden'>EXPLORER</h5>
-
-            {/* hover:bg-gray-700 */}
-
+            <h5 className='overflow-hidden' onClick={toggleExplorer} style={{ cursor: "pointer" }}>EXPLORER</h5>
 
             <div className="w-full max-w-xs text-white rounded-md shadow-md h-full overflow-y-auto">
                 <div>
-                    {/* About Section */}
+                
                     <details className="group">
                         <summary className="flex items-center justify-between cursor-pointer px-4 rounded-md mt-2 m-[5px]">
                             <span className="flex items-center text-xs">
@@ -43,8 +39,6 @@ const Explore = () => {
                         </div>
                     </details>
 
-
-                    {/* Projects Section */}
                     <details className="group">
                         <summary className="flex items-center justify-between cursor-pointer px-4 rounded-md mt-2 m-[5px]">
                             <span className="flex items-center text-xs">
@@ -71,7 +65,6 @@ const Explore = () => {
                         </div>
                     </details>
 
-                    {/* Contact Section Drop Down  */}
                     <details className="group">
                         <summary className="flex items-center justify-between cursor-pointer px-4 rounded-md mt-2 m-[5px]">
                             <span className="flex items-center text-xs">
@@ -100,7 +93,7 @@ const Explore = () => {
                         </div>
                     </details>
 
-                    {/* Miscellaneous Section  */}
+                  
                     <details className="group">
                         <summary className="flex items-center justify-between cursor-pointer px-4 rounded-md mt-2 m-[5px]">
                             <span className="flex items-center text-xs">

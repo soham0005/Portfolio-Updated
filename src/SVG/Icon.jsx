@@ -173,3 +173,10 @@ export const ProfileIcon = () => {
 };
 
 
+export const MenuIcon = () => (
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor">
+    <line x1="3" y1="12" x2="21" y2="12" strokeWidth="2" />
+    <line x1="3" y1="6" x2="21" y2="6" strokeWidth="2" />
+    <line x1="3" y1="18" x2="21" y2="18" strokeWidth="2" />
+  </svg>
+);

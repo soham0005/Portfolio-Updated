@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header toggleExplorer={toggleExplorer} />
 
       <div className="layout">
         {/* Sidebar */}
@@ -50,7 +50,7 @@ function App() {
         {/* Explorer Section (Overlay on Mobile) */}
         {isExplorerOpen && (
           <div className="explorer open">
-            <Explore />
+            <Explore isExplorerOpen={isExplorerOpen} toggleExplorer={toggleExplorer}/>
           </div>
         )}
 
@@ -81,3 +81,4 @@ function App() {
 }
 
 export default App;
+

@@ -70,7 +70,7 @@ const Home = () => {
                     </p>
                 </a>
 
-                <a href="/Email">
+                <a href="/contact">
                     <p className="text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -93,19 +93,19 @@ const Home = () => {
                 <p className="text-xl text-gray-300 pt-6 mb-2 ">Recent</p>
 
                 <div className="pt-1">
-                    <a href="/Blogs">
+                    <a href="/anime">
                         <p className="text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center">
-                            Blogs{" "}
+                            Anime{" "}
                             <p className="text-gray-300 pl-2 text-sm ">
-                                E:/Soham/Blogs
+                                E:/Soham/Anime
                             </p>
                         </p>
                     </a>
-                    <a href="/Learning">
+                    <a href="/gaming">
                         <p className="text-blue-500 cursor-pointer text-sm pb-2 font-sans flex justify-start gap-1 items-center">
-                            Learning{" "}
+                            Gaming{" "}
                             <p className="text-gray-300 pl-2 text-sm ">
-                                E:/Soham/Learning
+                                E:/Soham/Games
                             </p>
                         </p>
                     </a>
